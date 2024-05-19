@@ -1,0 +1,73 @@
+.box{
+    background-color: aqua;
+    margin: 50px;
+    border: 1px;
+    padding: 50px;
+}
+
+.parent{
+    border: 10px solid darkgreen;
+    margin: 100px;
+    padding: 10x;
+    width: 200px; 
+}
+
+.child{
+    height: 25px;
+    width: 25px;
+
+    text-align: center;
+    padding-top: 25px;
+    border: 2px solid grey;
+
+}
+
+/* .Sticky{
+    border: 2px solid darkblue;
+    background: brown;
+    position: sticky;
+    top: 50px;
+} */
+
+.fixed{
+    border: 2px solid darkcyan;
+    background: red;
+    position: fixed;
+}
+
+.calc{
+    /* border: 10px solid darkcyan;
+    margin: 100px;
+    padding: 10x;*/
+    display: flex;
+    justify-content: space-between;
+    
+}
+.calc1{
+    /* border: 10px solid darkcyan;
+    margin: 100px;
+    padding: 10x;*/
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+.calc2{
+    display: flex;
+    justify-content: start;
+}
+.input{
+    border: 2px solid black;
+    height: 50px;
+    width: 197px;
+    text-align: end;
+}
+.calbutton{
+    height: 20px;
+    width: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border: 2px solid grey;
+
+}
